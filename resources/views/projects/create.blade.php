@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Document</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+        <style>body { padding-top: 40px; }</style>
 
     </head>
     <body>
 
-    <div id="root">
-    <ul>
-        <li v-for="skill in skills" v-text="skill"></li>
-    </ul>
+    <div id="app" class="container">
+
+    
+
     </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
